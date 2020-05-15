@@ -1,0 +1,43 @@
+* {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (min-width: 640px) {
+    #navbar {
+        position: fixed;
+        float: left;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 19%;
+        overflow: scroll;
+    }
+    #main-doc {
+        float: right;
+        width: 80%;
+    }
+}
+nav ul {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    left: 0;
+}
+nav ul li {
+    position: relative;
+    list-style-type: none;
+    text-decoration: none;
+    border-style: solid;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.nav-link {
+    left: 10px;
+}
+code {
+    font-family: monospace;
+    background-color: lightgray;
+}
